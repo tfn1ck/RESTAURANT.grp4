@@ -1,0 +1,170 @@
+body{
+    background-image: url('Untitled design.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#chef{
+    /* height: 10%;
+    width: 18%;
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+    /* padding-left: 42%;
+    color: antiquewhite;
+    overflow: auto; */ 
+    /* height: 10%; */
+    /* width: 18%; */
+    /* padding-left: 35%; */
+    height: 65%;
+    width: 65%;
+    /* padding-right: 15%; */
+    /* margin-left: auto; */
+}
+.container.row.col#kc{
+    padding-left: 50px;
+}
+#webname{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;    
+    text-shadow: 2px 2px 3px #555;
+    color: brown;
+    text-decoration: dashed;
+    border: 3px solid antiquewhite;
+    background-color: antiquewhite;
+    /* padding-left: 42%; */
+    /* padding-left: 15px; */
+    /* padding-right: 11px; */
+    /* margin-left: 41%; */
+    border-radius: 17%;
+    /* margin-left: 42%; */
+}
+#logo{
+    margin: auto;
+    /* filter: drop-shadow(5px 5px 5px); */
+}
+.img1{
+    height: 275px;
+    width: 335px;
+    padding: 4px;
+    box-shadow: 2px 2px 2px #444;
+    filter: drop-shadow(5px 5px 3px);
+}
+#kc{
+    text-align: center;
+    /* margin-right: 42%; */
+    font-size: 23px;
+    font-weight: 200;
+    color: brown;
+    /* margin-left: auto;
+    font-size: 34px; */
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 400px;
+    text-shadow: 2px 2px 5px #555;
+    border: 2px solid bisque;
+    background-color: bisque;
+    border-radius: 15px;
+}
+#end{
+    text-align: center;
+    /* height: 150px; */
+    width: 150px;
+    align-items: center;
+    margin: auto;
+    padding-top: 12%;
+    padding-bottom: 10%;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img_car{
+    height: 275px;
+    width: 375px;
+    box-shadow: 2px 2px 2px #444;
+}
+/* Online booking */
+.body2{
+   background-image: url('Untitled\ design2.png'); 
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.header{
+    color: brown;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 5px #444;
+    /* font-size: 40px; */
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 17px;
+}
+.btn1{
+    width: 360px;
+    margin: auto;
+    /* padding-right: 110px; */
+    /* padding-left: 25%; */
+    /* padding-right: 25%; */
+}
+#end1{
+    text-align: center;
+    /* height: 150px; */
+    width: 150px;
+    align-items: center;
+    margin: auto;
+    padding-top: 12%;
+    padding-bottom: 10%;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 30%;
+}
+.img2{
+    height: 350px;
+    width: 450px;
+}
+a{
+    text-decoration: none;
+}
+.caro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: blue; */
+    text-shadow: 2px 2px 5px #555;
+}
+.card{
+    margin: 0 .5em;
+    width: 288px;
+    height: 450px;
+    box-shadow: 2px 2px 2px #444;
+    text-shadow: 2px 2px 5px #555;
+}
+.cardwrapper{
+    padding: 5px;
+}
+.gap{
+    padding: 14px 14px;
+}
+.kc{
+    text-align: center;
+    /* margin-right: 42%; */
+    font-size: 23px;
+    font-weight: 200;
+    color: brown;
+    /* margin-left: auto;
+    font-size: 34px; */
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    width: 700px;
+    text-shadow: 2px 2px 5px #555;
+    border: 2px solid bisque;
+    background-color: bisque;
+    border-radius: 15px;
+}

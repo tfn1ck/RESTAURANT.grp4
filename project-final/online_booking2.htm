@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Maven+Pro&family=Noto+Sans+Bengali&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Restaurant gr(04)</title>
+</head>
+<body class="body2">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">আহারে! বাহারে!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.htm">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="online_booking.htm">Online booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="online_booking2.htm">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.htm">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.htm">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="coro1.jpg" class="d-block w-100 img-fluid img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caro">Book your order now</h5><br><br>
+                    <p class="caro">Italian spaghetti at your doorstep</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="coro2.jpg" class="d-block w-100 img-fluid img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caro">Book your order now</h5><br><br>
+                    <p class="caro">100 and more different thali</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+            <img src="coro3.jpg" class="d-block w-100 img-fluid img_car" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="caro">Book your order now</h5><br><br>
+                    <p class="caro">Its ambience feels like your home</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <br><br>
+        <h3 class="header">Book your order now!</h3>
+        <br><br><br>
+    </div>
+    <br><br>
+        <div class="container">
+            <br><br><br>
+            <h4 class="header">South Indian Sambad</h4>
+            <br><br>
+        </div>
+        <div id="carouselExampleIndicators5" class="carousel slide carousel-dark d-none d-sm-block" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="si2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="si3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="si5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="si6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carouselExampleIndicators6" class="carousel slide d-sm-none carousel-dark" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="si6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <br><br><br>
+            <h4 class="header">Italian Fantastico</h4>
+            <br><br>
+        </div>
+        <div id="carouselExampleIndicators7" class="carousel slide carousel-dark d-none d-sm-block" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="it2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="it3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="it5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="it6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carouselExampleIndicators8" class="carousel slide d-sm-none carousel-dark" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="it6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <br><br><br>
+            <h4 class="header">North india's delicacy</h4>
+            <br><br><br>
+        </div>
+        <div id="carouselExampleIndicators9" class="carousel slide carousel-dark d-none d-sm-block" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ni2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ni3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ni5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ni6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carouselExampleIndicators10" class="carousel slide d-sm-none carousel-dark" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#10" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <br><br><br>
+            <h4 class="header">Bengali bahar</h4>
+            <br><br><br>
+        </div>
+        <div id="carouselExampleIndicators11" class="carousel slide carousel-dark d-none d-sm-block" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ben1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ben2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ben3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ben4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ben5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="ben6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carouselExampleIndicators12" class="carousel slide d-sm-none carousel-dark" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#10" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni1.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni2.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni3.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni4.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni5.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cardwrapper d-flex justify-content-center">
+                        <div class="card">
+                            <img src="ni6.png" class="card-img-top img1 img-fluid" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Book now and get 35% off</p>
+                                <a href="#" class="btn btn-success">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container">
+            <div class="row">
+                <br><br><br>
+            <div class="col-12 col-md-6 col-lg-4" id="end">
+                <p style="display: block; width: 100px;">For any further details contact our authority</p>
+            </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
